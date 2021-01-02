@@ -1,0 +1,46 @@
+#card-blocks {
+    height:230px;
+    margin: 0 auto;
+}
+
+#card-blocks div:last-of-type{
+    margin-top: 20px;
+}
+
+#card-blocks ul#block-chain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#card-blocks ul#block-chain li{
+    width: 265px;
+    height: 125px;
+    box-sizing: border-box;
+    border: 1px solid #dee2e6;
+    border-left: 3px solid #5c34a2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#card-blocks ul#block-chain li div{
+    padding-left:10px;
+    box-sizing: border-box;
+}
+
+#card-blocks ul#block-chain li div:first-of-type{
+    height:45px;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+    color:#5c34a2;
+    padding-top: 15px;   
+}
+
+#card-blocks ul#block-chain li div:last-of-type{
+    height:80px;
+    background-color: #f6f7f9;
+    margin-top: 0;   
+}
+

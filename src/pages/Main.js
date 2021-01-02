@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
-import {Header} from '../components/Main';
+import { TotalInfo, Content } from '../components/main';
 
 class Main extends Component {
 
     render(){
         return(
             <div>
-              <Header/>       
+                <TotalInfo/>
+                <Content/>
             </div>
         )
     }

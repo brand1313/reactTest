@@ -1,4 +1,6 @@
 import React from 'react';
+import './Header.css';
+import {Link} from 'react-router-dom';
 
 const Header = () => {
 
@@ -6,14 +8,16 @@ const Header = () => {
     return(
         <div>
             <header>
-                <h2>Block Explore</h2>
+                <div id="title-logo">
+                    <Link to="/">Block Explorer</Link>
+                </div>
                 <nav>
                     <ul>
-                        <li>Block</li>
-                        <li>Transaction</li>
+                        <li><Link to='/blocks'>Blocks</Link></li>
+                        <li><Link to='/txs'>Transactions</Link></li>
                     </ul>
                 </nav>
-                <div>
+                <div id="search">
                     <input type="text" placeholder="search"/>
                 </div>
             </header>
